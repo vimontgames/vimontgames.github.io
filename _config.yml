@@ -14,4 +14,7 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+title: vimontgames
+description: hello world
+show_downloads: false
 
