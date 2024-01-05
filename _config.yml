@@ -1,5 +1,7 @@
+theme: minima
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 relative_links:
   enabled: true
   collections: true
@@ -12,3 +14,4 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+
