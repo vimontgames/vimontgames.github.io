@@ -15,6 +15,6 @@ include:
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
 title: vimontgames
-description: hello world
+description: just a GitHub page
 show_downloads: false
 
