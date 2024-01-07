@@ -6,10 +6,6 @@ Hello I'm Benoit. I am a graphics engineer and this is my page for personal proj
 
 ![Book logo](docs/assets/images/vimontgames.gif)
 
-# vgframework
-My toy renderer/engine and my currently most active personal project. I created it in order to play with bindless rendering and raytracing.
-You can check it here : [https://github.com/vimontgames/vgframework](https://github.com/vimontgames/vgframework)
-
   {% for post in site.posts %}
   <article>
     <h2>
