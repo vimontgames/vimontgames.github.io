@@ -14,9 +14,16 @@ so I added website traffic analytics using [GoatCounter](https://www.goatcounter
 It was surprisingly easy to setup, as I was already using [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes)'s 
 [remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/) I only add to :
 
+#### Step 1
+
 - Create a free [GoatCounter](https://www.goatcounter.com/signup) account
+
+#### Step 2
 - Copy the '_layout' folder from the [Minimal Misktakes](https://github.com/mmistakes/minimal-mistakes/tree/master/_layouts)
 theme's repo to my own fork of [remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/)
+
+#### Step 3
+
 - Edit *_layouts/default.html* to add the last line juste before the closing **head** tag
 
 ```
@@ -25,6 +32,6 @@ theme's repo to my own fork of [remote theme starter](https://github.com/mmistak
 </head>
 ```
 
-You can check the counters here : https://vimontgamesgithubio.goatcounter.com/
+You can check the counters at [vimontgamesgithubio.goatcounter.com](https://vimontgamesgithubio.goatcounter.com)
 
 
