@@ -35,17 +35,17 @@ increase its RefCount or create it when needed.
 
 ### Example
 
-Three cubes using the same opaque material
+Three cubes using the same opaque material :
 
-![Screenshot](assets/images/BLAStest/1.png)
+![Screenshot](BLAStest/1.png)
 
-Three cubes using different opaque materials
+Three cubes using different opaque materials :
 
-![Screenshot](assets/images/BLAStest/2.png)
+![Screenshot](BLAStest/2.png)
 
-Three cubes using different materials but one is alphablend
+Three cubes using different materials but one is alphablend :
 
-![Screenshot](assets/images/BLAStest/3.png)
+![Screenshot](BLAStest/3.png)
 
 # Dynamic geometry
 
