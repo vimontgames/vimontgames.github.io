@@ -22,7 +22,7 @@ It's easy to build a BLAS right after mesh loading, but still there a few things
 - BLAS need to separate opaque vs. non-opaques batchs
 - Dynamic geometry needs to update BLAS when it changes
 
-We end up having a different strategy for static and opaque geometries
+We end up having a different strategy for static and opaque geometries :
 
 
 # Static Geometry
@@ -37,7 +37,7 @@ are using **alphablend** or **alphatest**, but it's also convenient to be able t
 with different material instances.
 
 In [vgframework](https://github.com/vimontgames/vgframework), the mesh models are cooked without 
-knowledge of the materials used and it's up to every **MeshModelInstance** can choose the materials to use.
+knowledge of the materials used and it's up to every **MeshModelInstance** to choose the materials to use.
 
 A **MeshModel** holds a map of its different BLAses variants. A key is built from the materials used by the 
 graphic instance so that the same configuration (e.g. Opaque/Opaque/Alphablend) return the same BLAS and 

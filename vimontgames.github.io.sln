@@ -28,6 +28,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_posts", "_posts", "{C5042FF3-3901-44C8-9476-90AD8F66D480}"
 	ProjectSection(SolutionItems) = preProject
 		_posts\2024-01-08-Bindless-Table.md = _posts\2024-01-08-Bindless-Table.md
+		_posts\2024-01-08-BLAS-Building-And-Update.md = _posts\2024-01-08-BLAS-Building-And-Update.md
 		_posts\2024-01-08-Hello-World.md = _posts\2024-01-08-Hello-World.md
 	EndProjectSection
 EndProject
@@ -35,18 +36,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{99B500
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D5ECE249-1EA3-455A-908F-BF2C7FFE5733}"
 	ProjectSection(SolutionItems) = preProject
-		assets\images\bio-photo.jpg = assets\images\bio-photo.jpg
+		assets\images\PP.gif = assets\images\PP.gif
+		assets\images\vimontgames.gif = assets\images\vimontgames.gif
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templates", "templates", "{185FE0B0-C034-4F6F-909D-1E4B20C652E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_samples", "_samples", "{F4D0A421-3454-4924-919B-724D88B66292}"
 	ProjectSection(SolutionItems) = preProject
-		_posts\templates\2010-01-07-post-modified.md = _posts\templates\2010-01-07-post-modified.md
-		_posts\templates\2010-01-07-post-standard.md = _posts\templates\2010-01-07-post-standard.md
-		_posts\templates\2010-01-08-post-chat.md = _posts\templates\2010-01-08-post-chat.md
-		_posts\templates\2010-02-05-post-notice.md = _posts\templates\2010-02-05-post-notice.md
-		_posts\templates\2010-02-05-post-quote.md = _posts\templates\2010-02-05-post-quote.md
-		_posts\templates\2010-03-07-post-link.md = _posts\templates\2010-03-07-post-link.md
-		_posts\templates\2019-04-18-welcome-to-jekyll.md = _posts\templates\2019-04-18-welcome-to-jekyll.md
+		_samples\_posts\2010-01-07-post-modified.md = _samples\_posts\2010-01-07-post-modified.md
+		_samples\_posts\2010-01-07-post-standard.md = _samples\_posts\2010-01-07-post-standard.md
+		_samples\_posts\2010-01-08-post-chat.md = _samples\_posts\2010-01-08-post-chat.md
+		_samples\_posts\2010-02-05-post-notice.md = _samples\_posts\2010-02-05-post-notice.md
+		_samples\_posts\2010-02-05-post-quote.md = _samples\_posts\2010-02-05-post-quote.md
+		_samples\_posts\2010-03-07-post-link.md = _samples\_posts\2010-03-07-post-link.md
+		_samples\_posts\2019-04-18-welcome-to-jekyll.md = _samples\_posts\2019-04-18-welcome-to-jekyll.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLAStest", "BLAStest", "{03CFC5F7-D1E8-4811-B0CE-AE19D71FF776}"
+	ProjectSection(SolutionItems) = preProject
+		assets\images\BLAStest\1.png = assets\images\BLAStest\1.png
+		assets\images\BLAStest\2.png = assets\images\BLAStest\2.png
+		assets\images\BLAStest\3.png = assets\images\BLAStest\3.png
 	EndProjectSection
 EndProject
 Global
@@ -59,7 +68,8 @@ Global
 		{C5042FF3-3901-44C8-9476-90AD8F66D480} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
 		{99B5009C-3EE6-4DC5-8B05-079D3060E2AB} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
 		{D5ECE249-1EA3-455A-908F-BF2C7FFE5733} = {99B5009C-3EE6-4DC5-8B05-079D3060E2AB}
-		{185FE0B0-C034-4F6F-909D-1E4B20C652E3} = {C5042FF3-3901-44C8-9476-90AD8F66D480}
+		{F4D0A421-3454-4924-919B-724D88B66292} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
+		{03CFC5F7-D1E8-4811-B0CE-AE19D71FF776} = {D5ECE249-1EA3-455A-908F-BF2C7FFE5733}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DC22FF0-8820-4873-B833-1799B143B16A}
