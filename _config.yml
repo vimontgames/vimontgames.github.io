@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: vimontgames
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+twitter_username: benoitvimont
+github_username: vimontgames
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -62,27 +62,27 @@ author:
   avatar : "/assets/images/PP.gif"
   bio    : "DevBlog"
   links:
-    - label: "Mastodon"
-      icon: "fab fa-mastodon"
-      url: "https://mastodon.gamedev.place/@benoitvimont"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/vimontgames"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/benoitvimont"
+      url: "https://www.linkedin.com/in/benoitvimont" 
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://mastodon.gamedev.place/@benoitvimont"
 
 footer:
   links:
-    - label: "Mastodon"
-      icon: "fab fa-mastodon"
-      url: "https://mastodon.gamedev.place/@benoitvimont"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/vimontgames"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/benoitvimont"
+      url: "https://www.linkedin.com/in/benoitvimont" 
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://mastodon.gamedev.place/@benoitvimont"
 
 defaults:
   # _posts
