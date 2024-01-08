@@ -49,6 +49,5 @@ Three cubes using different materials but one is alphablend :
 
 # Dynamic geometry
 
-// TODO
 
 
