@@ -1,6 +1,6 @@
 ---
 title: "Bindless Table"
-date: 2024-01-08T0:0:0-00:00
+date: 2024-01-08T0:0:0-00:01
 categories:
   - Blog
 ---
@@ -57,3 +57,4 @@ These hardcoded slots are allocated bottom-up in addition to the last value of t
 | ViewConstants    | 32766 
 | Default          | 32767 
 
+ 
