@@ -35,17 +35,22 @@ increase its RefCount or create it when needed.
 
 ### Example
 
-Three cubes using the same opaque material :
+#### 3 cubes using the same opaque material :
 
-![Screenshot](BLAStest/1.png)
+![3 cubes using the same opaque material](vimontgames.github.io/assets/images/BLAStest/1.gif)
 
-Three cubes using different opaque materials :
+The 3 cube are sharing the same BLAS
 
-![Screenshot](BLAStest/2.png)
+#### 3 cubes using different opaque materials :
 
-Three cubes using different materials but one is alphablend :
+![3 cubes using different opaque materials](vimontgames.github.io/assets/images/BLAStest/2.gif)
+The 3 cube are still sharing the same BLAS, because new materials are still opaque
 
-![Screenshot](BLAStest/3.png)
+#### 3 cubes using different materials but one is alphablend :
+
+![3 cubes using different materials but one is alphablend](vimontgames.github.io/assets/images/BLAStest/3.gif)
+The 2 opaque cubes are sharing the same BLAS made of one opaque batch while the last one is using itw own 
+BLAS made of 1 non-opaque batch
 
 # Dynamic geometry
 
