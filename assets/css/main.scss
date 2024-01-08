@@ -6,15 +6,8 @@ search: false
 @charset "utf-8"
 ;
 
-body 
-{
-    background-color: #424242;
-}
-
-.site-footer 
-{
-    background-color: #ff0000;
-}
+$body-color : #424242
+$background-color : #ff0000
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
