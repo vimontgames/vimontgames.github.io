@@ -40,6 +40,7 @@ By default, a new resource requiring a view will be created allocating a new bin
 These hardcoded slots are allocated bottom-up in addition to the last value of the range being used as invalid value.
 
 ### Texture
+
 | Slot             | Value  
 | ---------------- | ------
 | PBR              | 16379 
@@ -49,6 +50,7 @@ These hardcoded slots are allocated bottom-up in addition to the last value of t
 | Default          | 16383 
 
 ### Buffer
+
 | Slot             | Value  
 | ---------------- | ------
 | InstanceData     | 32763 
