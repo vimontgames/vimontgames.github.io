@@ -9,16 +9,15 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
+<head>
     {% include head.html %}
     {% include head/custom.html %}
-  </head>
+    <script data-goatcounter="https://vimontgames.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
       {% include_cached skip-links.html %}
       {% include_cached masthead.html %}
-
-      <script data-goatcounter="https://vimontgames.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
       <div class="initial-content">
           {{ content }}
