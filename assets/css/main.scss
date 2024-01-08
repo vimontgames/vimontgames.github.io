@@ -8,7 +8,12 @@ search: false
 
 body 
 {
-    background-color: ##424242;
+    background-color: #424242;
+}
+
+.site-footer 
+{
+    background-color: #ff0000;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
