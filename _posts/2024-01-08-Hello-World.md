@@ -2,7 +2,7 @@
 title: "Hello World"
 date: 2024-01-08T0:0:0-00:00
 categories:
-  - blog
+  - Blog
 ---
 
 Mandatory "Hello world" for the first post :) 

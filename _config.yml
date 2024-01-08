@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Home of the SuperVimontBros series and vgframework a.k.a. "vimontgames framework"
 twitter_username: benoitvimont
 github_username: vimontgames
-minimal_mistakes_skin: "dark"
+minimal_mistakes_skin: "neon"
 search: true
 
 # Build settings
@@ -57,9 +57,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "vimontgames"
+  name   : "Benoît Vimont"
   avatar : "/assets/images/PP.gif"
-  bio    : "DevBlog"
+  bio    : "Graphics Engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
