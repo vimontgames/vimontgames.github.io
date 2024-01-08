@@ -5,6 +5,6 @@ categories:
   - Blog
 ---
 
-Mandatory "Hello world" for the first post :) 
+Mandatory "Hello world" as first post
 
 I just created this blog using GitHub pages to write down stuff without being limited by the number of characters per post in Mastodon.

@@ -7,9 +7,10 @@ tags:
   - Bindless
 ---
 
-## Table Layout
+I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.\
+Here is the layout I currently use for bindless table :
 
-I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs exclusively, and here is the layout I currently use :
+## Table Layout
 
 | Type                            | Range          | Space | Binding
 | ------------------------------- | -------------- | ----- | --------
@@ -18,10 +19,10 @@ I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs ex
 | Texture2D (uint)                | [0    ..16383] | 21    | 0  
 | Texture3D (float4)              | [0    ..16383] | 30    | 0  
 | ByteAddressBuffer               | [16384..32767] | -     | 1  
-| RWTexture1D                     | [32768..40959] | 110   | 2  
-| RWTexture2D                     | [32768..40959] | 120   | 2  
-| RWTexture3D                     | [32768..40959] | 130   | 2  
-| RWByteAddressBuffer             | [40960..49151] | 100   | 3  
+| RWTexture1D                     | [32768..40959] | 210   | 2  
+| RWTexture2D                     | [32768..40959] | 220   | 2  
+| RWTexture3D                     | [32768..40959] | 230   | 2  
+| RWByteAddressBuffer             | [40960..49151] | 200   | 3  
 | RaytracingAccelerationStructure | [49152..49167] | -     | 4  
 
 Notes:
@@ -50,12 +51,11 @@ PS_Output PS_Forward(VS_Output _input)
 
 - To fallback to missing texture :
 
-```c
-// create default texture at slot 'invalidBindlessTextureHandle'
+```c++
 m_defaultTexture = device->createTexture(texDesc, "DefaultTex2D", initData, ReservedSlot(BINDLESS_TEXTURE_INVALID));
 VG_ASSERT(m_defaultTexture->getTextureHandle() == BINDLESS_TEXTURE_INVALID);
         
-// copy texture to all 'texture' slots
+// copy descriptor to all 'texture' slots
 for (uint i = BINDLESS_TEXTURE_START; i < BINDLESS_TEXTURE_COUNT; ++i)
     if (BINDLESS_TEXTURE_INVALID != i)
         copyTextureHandle(i, m_defaultTexture);
