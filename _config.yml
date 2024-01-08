@@ -63,26 +63,26 @@ author:
   bio    : "DevBlog"
   links:
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon-square"
+      icon: "fab fa-mastodon"
       url: "https://mastodon.gamedev.place/@benoitvimont"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vimontgames"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/benoitvimont"
 
 footer:
   links:
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon-square"
+      icon: "fab fa-mastodon"
       url: "https://mastodon.gamedev.place/@benoitvimont"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/vimontgames"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/benoitvimont"
 
 defaults:
   # _posts
