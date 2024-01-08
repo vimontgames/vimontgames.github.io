@@ -36,6 +36,7 @@ In case you want more details, check the file [table.hlsi](https://github.com/vi
 By default, a new resource requiring a view will be created allocating a new bindless handle in these ranges, but it's convenient to have some hard-coded slots :
 
 - To avoid an extra indirection (e.g. passing buffer handle as root constant) :
+
 ```hlsl
 PS_Output PS_Forward(VS_Output _input)
 {
@@ -48,7 +49,8 @@ PS_Output PS_Forward(VS_Output _input)
 ```
 
 - To fallback to missing texture :
-```c++
+
+```c
 // create default texture at slot 'invalidBindlessTextureHandle'
 m_defaultTexture = device->createTexture(texDesc, "DefaultTex2D", initData, ReservedSlot(BINDLESS_TEXTURE_INVALID));
 VG_ASSERT(m_defaultTexture->getTextureHandle() == BINDLESS_TEXTURE_INVALID);
