@@ -6,9 +6,12 @@ search: false
 @charset "utf-8"
 ;
 
-body 
-{
-    background-color: #4cff00ff;
+body {
+    background-color: ##424242;
+}
+
+.site-footer {
+    background-color: #ff0000; /* Footer background color */
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
