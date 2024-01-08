@@ -3,6 +3,7 @@ title: "Goatcounter"
 date: 2024-01-08T0:0:0-00:04
 categories:
   - Blog
+tags:
   - GoatCounter
   - Analytics
 ---
