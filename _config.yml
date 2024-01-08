@@ -57,7 +57,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Benoît Vimont"
+  name   : "Benoit Vimont"
   avatar : "/assets/images/PP.gif"
   bio    : "Graphics Engineer"
   links:
