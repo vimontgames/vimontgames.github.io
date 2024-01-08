@@ -17,14 +17,10 @@ title: vimontgames
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Benoit Vimont's blog about rendering for video games.
-  Home of the SuperVimontBros series and vgframework (vimongames framework)
+  Home of the SuperVimontBros series and the vimongames framework
 twitter_username: benoitvimont
 github_username: vimontgames
 minimal_mistakes_skin: default
-# Mastodon instances
-mastodon:
-- username: benoitvimont
-  instance: mastodon.gamedev.place
 search: true
 
 # Build settings
