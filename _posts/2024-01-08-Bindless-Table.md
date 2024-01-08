@@ -1,10 +1,8 @@
 ---
 title: "Bindless Table"
-date: 2024-01-08T0:0:0-11:13
+date: 2024-01-08T0:0:0-00:00
 categories:
-  - Rendering
-tags:
-  - Bindless
+  - Blog
 ---
 
 ## Table Layout
