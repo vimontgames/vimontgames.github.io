@@ -6,7 +6,9 @@ search: false
 @charset "utf-8"
 ;
 
-$background-color: #24292E; 
+$background-color: #24292E;
+$link-color : #0366D6;
+$masthead-link-color: #E8B814;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
