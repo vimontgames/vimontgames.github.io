@@ -19,10 +19,10 @@ $vg_blue_light: #0366D6;
 $vg_white: #fff6fb;
 
 $primary-color: $vg_blue_light;
-$secondary-color: $vg_pink;
+$secondary-color: $primary-color;
 
 $background-color: $vg_grey;
-$link-color: $secondary-color;
+$link-color: $primary-color;
 
 $masthead-link-color: $vg_white;
 $masthead-link-color-hover: $vg_white;
@@ -42,11 +42,12 @@ a:visited {
     color: $link-color;
 }
 
-h1 {
-    color: $secondary-color;
+a:active {
+    text-decoration: none;
+    color: $link-color;
 }
 
-h2 {
+h1, h2, h3, h4, h5 {
     color: $primary-color;
 }
 

@@ -14,12 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: vimontgames.github.io
-logo: /assets/images/vimontgames_small.png
-location: Montpellier
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   vimontgames.github.io
-twitter_username: benoitvimont
 github_username: vimontgames
 minimal_mistakes_skin: "neon"
 search: true
