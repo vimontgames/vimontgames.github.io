@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_pages", "_pages", "{B33DCC
 		_pages\404.md = _pages\404.md
 		_pages\about.md = _pages\about.md
 		_pages\category-archive.md = _pages\category-archive.md
+		_pages\links.md = _pages\links.md
 		_pages\tag-archive.md = _pages\tag-archive.md
 		_pages\year-archive.md = _pages\year-archive.md
 	EndProjectSection
@@ -58,6 +59,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLAStest", "BLAStest", "{03
 		assets\images\BLAStest\3.png = assets\images\BLAStest\3.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{55BDB7F0-BCDB-4BDF-9853-E3F47C95F9F0}"
+	ProjectSection(SolutionItems) = preProject
+		_layouts\archive-taxonomy.html = _layouts\archive-taxonomy.html
+		_layouts\archive.html = _layouts\archive.html
+		_layouts\categories.html = _layouts\categories.html
+		_layouts\category.html = _layouts\category.html
+		_layouts\collection.html = _layouts\collection.html
+		_layouts\compress.html = _layouts\compress.html
+		_layouts\default.html = _layouts\default.html
+		_layouts\home.html = _layouts\home.html
+		_layouts\posts.html = _layouts\posts.html
+		_layouts\search.html = _layouts\search.html
+		_layouts\single.html = _layouts\single.html
+		_layouts\splash.html = _layouts\splash.html
+		_layouts\tag.html = _layouts\tag.html
+		_layouts\tags.html = _layouts\tags.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +89,7 @@ Global
 		{D5ECE249-1EA3-455A-908F-BF2C7FFE5733} = {99B5009C-3EE6-4DC5-8B05-079D3060E2AB}
 		{F4D0A421-3454-4924-919B-724D88B66292} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
 		{03CFC5F7-D1E8-4811-B0CE-AE19D71FF776} = {D5ECE249-1EA3-455A-908F-BF2C7FFE5733}
+		{55BDB7F0-BCDB-4BDF-9853-E3F47C95F9F0} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DC22FF0-8820-4873-B833-1799B143B16A}
