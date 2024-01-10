@@ -7,9 +7,10 @@ tags:
   - RayTracing
   - BLAS
   - Skinning
+
 toc: true
-toc_label: "My Table of Contents"
 toc_icon: "cog"
+toc_sticky: true
 ---
 
 Strategy for building BLAS variants and updating BLASes.
@@ -28,7 +29,7 @@ It's easy to build a BLAS right after mesh loading, but still there a few things
 We end up having a different strategy for static and opaque geometries :
 
 
-# Static Geometry
+## Static Geometry
 
 These geometries do not change often. Ideally we would like to build them once, share them as much as possible
 and destroy them when they are no more needed (no more instance using it).
@@ -65,12 +66,12 @@ The 2 opaque cubes are sharing the same BLAS made of one opaque batch while the 
 BLAS made of 1 non-opaque batch
 
 
-# Dynamic geometry
+## Dynamic geometry
 
 As opposed to static geometries, dynamic geometries change every frame (e.g. skinned meshes) so we build them
 with the FAST_BUILD and ALLOW_UPDATE flags to reduce the cost of this update.
 
-## Skinned geometry
+### Skinned geometry
 
 During views culling, the skins instances visible in any view (incl. shadow casting lights POV) are added to a
 lock-free list using atomics.
