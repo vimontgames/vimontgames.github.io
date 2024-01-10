@@ -4,7 +4,7 @@ permalink: /
 title: "Home"
 ---
 
-test 3
+from index.md
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}

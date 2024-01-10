@@ -4,4 +4,4 @@ permalink: /
 title: "Home"
 ---
 
-Hello
+Hello from home.md
