@@ -1,8 +1,10 @@
 ---
-layout: default
+layout: archive
 ---
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Poosts" }}</h3>
+{% include sidebar.html %}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Latest Posts" }}</h3>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
