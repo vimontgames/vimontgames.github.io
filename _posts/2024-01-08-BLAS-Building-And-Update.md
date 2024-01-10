@@ -30,7 +30,7 @@ It's easy to build a BLAS right after mesh loading, but still there a few things
 We end up having a different strategy for static and opaque geometries :
 
 
-## Static Geometry
+# Static Geometry
 
 These geometries do not change often. Ideally we would like to build them once, share them as much as possible
 and destroy them when they are no more needed (no more instance using it).
@@ -48,7 +48,7 @@ A **MeshModel** holds a map of its different BLAses variants. A key is built fro
 graphic instance so that the same configuration (e.g. Opaque/Opaque/Alphablend) return the same BLAS and 
 increase its RefCount or create it when needed.
 
-### Examples
+## Examples
 
 **3 cubes using the same opaque material**
 
@@ -67,12 +67,12 @@ The 2 opaque cubes are sharing the same BLAS made of one opaque batch while the 
 BLAS made of 1 non-opaque batch.
 
 
-## Dynamic geometry
+# Dynamic geometry
 
 As opposed to static geometries, dynamic geometries change every frame (e.g. skinned meshes) so we build them
 with the **FAST_BUILD** and **ALLOW_UPDATE** flags to reduce the cost of this update.
 
-### Skinning
+## Skinning
 
 During views culling, the skins instances visible in any view (incl. shadow casting lights POV) are added to a
 lock-free list using atomics.
