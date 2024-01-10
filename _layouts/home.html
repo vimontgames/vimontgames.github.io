@@ -2,9 +2,13 @@
 layout: archive
 ---
 
-before content
+before content<br>
 {{ content }}
-after content
+after content<br>
+
+before include<br>
+{% include home.md %}
+after include<br>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
@@ -16,9 +20,9 @@ after content
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
+    {% for post in posts %}
     {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+    {% endfor %}
 </div>
 
 {% include paginator.html %}
