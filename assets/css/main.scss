@@ -18,10 +18,10 @@ $vg_blue_light: #0366D6;
 
 $background-color: $vg_grey;
 $link-color: $vg_blue_light;
-$primary-color: $vg_pink;
+$primary-color: $vg_blue_light;
 
-$masthead-link-color: $vg_pink;
-$masthead-link-color-hover: $vg_pink;
+$masthead-link-color: $vg_blue_light;
+$masthead-link-color-hover: $vg_blue_light;
 
 a 
 {
@@ -34,15 +34,15 @@ a:visited
 }
 
 h1 {
-    color: $vg_pink;
-}
-
-h2 {
     color: $vg_yellow;
 }
 
+h2 {
+    color: $vg_pink;
+}
+
 h3 {
-    color: $vg_blue; 
+    color: $vg_blue_light;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
