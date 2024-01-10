@@ -20,8 +20,8 @@ $background-color: $vg_grey;
 $link-color: $vg_pink;
 $primary-color: $vg_blue_light;
 
-$masthead-link-color: $vg_yellow;
-$masthead-link-color-hover: $vg_yellow;
+$masthead-link-color: $vg_blue_light;
+$masthead-link-color-hover: $vg_blue_light;
 
 a {
     text-decoration: none;
@@ -34,7 +34,7 @@ a:visited {
 }
 
 h1 {
-    color: $vg_yellow;
+    color: $vg_blue_light;
 }
 
 h2 {
@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-    color: $vg_blue_light;
+    color: $vg_yellow;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
