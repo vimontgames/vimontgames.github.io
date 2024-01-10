@@ -17,20 +17,20 @@ $vg_blue: #125296;
 $vg_blue_light: #0366D6;
 
 $background-color: $vg_grey;
-$link-color: $vg_blue_light;
+$link-color: $vg_pink;
 $primary-color: $vg_blue_light;
 
-$masthead-link-color: $vg_blue_light;
-$masthead-link-color-hover: $vg_blue_light;
+$masthead-link-color: $vg_yellow;
+$masthead-link-color-hover: $vg_yellow;
 
-a 
-{
+a {
     text-decoration: none;
+    color: $link-color;
 }
 
-a:visited 
-{
+a:visited {
     text-decoration: none;
+    color: $link-color;
 }
 
 h1 {
