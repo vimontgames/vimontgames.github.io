@@ -17,6 +17,7 @@ title: vimontgames.github.io
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   vimontgames.github.io
+twitter_username: benoitvimont
 github_username: vimontgames
 minimal_mistakes_skin: "neon"
 search: true
