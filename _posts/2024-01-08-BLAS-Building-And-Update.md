@@ -1,6 +1,8 @@
 ---
 title: "BLAS Build and Update"
-date: 2024-01-08T0:0:0-00:02
+excerpt: "Strategy for building BLAS variants and updating BLASes"
+thumbnail: /assets/images/thumbnails/2024-01-08-BLAS-Building-And-Update.png
+date: 2024-01-08
 categories:
   - Rendering
 tags:
@@ -9,10 +11,8 @@ toc: true
 toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
-thumbnail: /assets/images/thumbnails/2024-01-08-BLAS-Building-And-Update.png
----
 
-Strategy for building BLAS variants and updating BLASes.
+---
 
 # What's the deal with BLASes?
 

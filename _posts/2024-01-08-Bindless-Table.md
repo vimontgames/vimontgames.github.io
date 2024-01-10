@@ -1,6 +1,8 @@
 ---
 title: "Bindless Table"
-date: 2024-01-08T0:0:0-00:01
+excerpt: "Experiments with Bindless rendering using DirectX12 & Vulkan APIs"
+thumbnail: /assets/images/thumbnails/2024-01-08-Bindless-Table.png
+date: 2024-01-08
 categories:
   - Rendering
 tags:
@@ -9,7 +11,6 @@ toc: true
 toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
-thumbnail: /assets/images/thumbnails/2024-01-08-Bindless-Table.png
 ---
 
 I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.
