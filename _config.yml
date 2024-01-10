@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Benoit Vimont"
   avatar : "/assets/images/PPx4.png"
-  bio    : "Doing stuff with GPU"
+  bio    : "GPU whisperer"
   links:
     - label: "GitHub"
       icon: "fab fa-github"
