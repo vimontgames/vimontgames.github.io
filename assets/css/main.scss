@@ -13,10 +13,11 @@ $vg_pink: #F21368;
 $vg_blue: #0366D6;
 
 $background-color: $vg_grey;
-$link-color: $vg_blue;
+$link-color: $vg_yellow;
+$primary-color: $vg_blue;
 
-$masthead-link-color: $vg_yellow;
-$masthead-link-color-hover: $vg_yellow_light;
+$masthead-link-color: $vg_pink;
+$masthead-link-color-hover: mix(#fff, $vg_pink, 25%);
 
 a {
     color: $vg_blue;
