@@ -109,6 +109,6 @@ These custom hardcoded slots are defined compile-time and "allocated" bottom-up 
 
 Using GPU debug tools like [Renderdoc](https://renderdoc.org/) or [PIX](https://devblogs.microsoft.com/pix/), it is possible to view the descriptor used and the resource contents.
 
-[![Bindless tables in Renderdoc](http://vimontgames.github.io/assets/images/assets/BindlessTable/BindlessTable.png)](http://vimontgames.github.io/assets/images/assets/BindlessTable/BindlessTable.png)
+[![Bindless tables in Renderdoc](http://vimontgames.github.io/assets/BindlessTable/BindlessTable.png)](http://vimontgames.github.io/assets/BindlessTable/BindlessTable.png)
 
  
