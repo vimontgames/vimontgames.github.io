@@ -30,6 +30,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_posts", "_posts", "{C5042F
 	ProjectSection(SolutionItems) = preProject
 		_posts\2024-01-08-Bindless-Table.md = _posts\2024-01-08-Bindless-Table.md
 		_posts\2024-01-08-BLAS-Building-And-Update.md = _posts\2024-01-08-BLAS-Building-And-Update.md
+		_posts\2024-01-08-Goatcounter.md = _posts\2024-01-08-Goatcounter.md
 		_posts\2024-01-08-Hello-World.md = _posts\2024-01-08-Hello-World.md
 	EndProjectSection
 EndProject
@@ -77,6 +78,85 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{55
 		_layouts\tags.html = _layouts\tags.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_includes", "_includes", "{011717BD-414C-4267-87B0-ED0A7D7E2477}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\analytics.html = _includes\analytics.html
+		_includes\archive-single.html = _includes\archive-single.html
+		_includes\author-profile-custom-links.html = _includes\author-profile-custom-links.html
+		_includes\author-profile.html = _includes\author-profile.html
+		_includes\breadcrumbs.html = _includes\breadcrumbs.html
+		_includes\category-list.html = _includes\category-list.html
+		_includes\comment.html = _includes\comment.html
+		_includes\comments.html = _includes\comments.html
+		_includes\documents-collection.html = _includes\documents-collection.html
+		_includes\feature_row = _includes\feature_row
+		_includes\figure = _includes\figure
+		_includes\footer.html = _includes\footer.html
+		_includes\gallery = _includes\gallery
+		_includes\group-by-array = _includes\group-by-array
+		_includes\head.html = _includes\head.html
+		_includes\masthead.html = _includes\masthead.html
+		_includes\nav_list = _includes\nav_list
+		_includes\page__date.html = _includes\page__date.html
+		_includes\page__hero.html = _includes\page__hero.html
+		_includes\page__hero_video.html = _includes\page__hero_video.html
+		_includes\page__meta.html = _includes\page__meta.html
+		_includes\page__taxonomy.html = _includes\page__taxonomy.html
+		_includes\paginator.html = _includes\paginator.html
+		_includes\posts-category.html = _includes\posts-category.html
+		_includes\posts-tag.html = _includes\posts-tag.html
+		_includes\post_pagination.html = _includes\post_pagination.html
+		_includes\scripts.html = _includes\scripts.html
+		_includes\seo.html = _includes\seo.html
+		_includes\sidebar.html = _includes\sidebar.html
+		_includes\skip-links.html = _includes\skip-links.html
+		_includes\social-share.html = _includes\social-share.html
+		_includes\tag-list.html = _includes\tag-list.html
+		_includes\toc = _includes\toc
+		_includes\toc.html = _includes\toc.html
+		_includes\video = _includes\video
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analytics-providers", "analytics-providers", "{2FA0ED61-5989-496B-8863-3DDB2A19285C}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\analytics-providers\custom.html = _includes\analytics-providers\custom.html
+		_includes\analytics-providers\google-gtag.html = _includes\analytics-providers\google-gtag.html
+		_includes\analytics-providers\google-universal.html = _includes\analytics-providers\google-universal.html
+		_includes\analytics-providers\google.html = _includes\analytics-providers\google.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "comments-providers", "comments-providers", "{39995EF7-48DF-4B88-A7A8-BAAA8EFBA36C}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\comments-providers\custom.html = _includes\comments-providers\custom.html
+		_includes\comments-providers\custom_scripts.html = _includes\comments-providers\custom_scripts.html
+		_includes\comments-providers\discourse.html = _includes\comments-providers\discourse.html
+		_includes\comments-providers\disqus.html = _includes\comments-providers\disqus.html
+		_includes\comments-providers\facebook.html = _includes\comments-providers\facebook.html
+		_includes\comments-providers\giscus.html = _includes\comments-providers\giscus.html
+		_includes\comments-providers\scripts.html = _includes\comments-providers\scripts.html
+		_includes\comments-providers\staticman.html = _includes\comments-providers\staticman.html
+		_includes\comments-providers\staticman_v2.html = _includes\comments-providers\staticman_v2.html
+		_includes\comments-providers\utterances.html = _includes\comments-providers\utterances.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "footer", "footer", "{48323179-7C28-4D0C-8C0F-C69955EF4D7F}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\footer\custom.html = _includes\footer\custom.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "head", "head", "{469AB0F3-4C95-4BFE-9E98-943189E0B391}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\head\custom.html = _includes\head\custom.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "search", "search", "{136FFA40-7509-434E-A24D-B83C201811EA}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\search\algolia-search-scripts.html = _includes\search\algolia-search-scripts.html
+		_includes\search\google-search-scripts.html = _includes\search\google-search-scripts.html
+		_includes\search\lunr-search-scripts.html = _includes\search\lunr-search-scripts.html
+		_includes\search\search_form.html = _includes\search\search_form.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +170,12 @@ Global
 		{F4D0A421-3454-4924-919B-724D88B66292} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
 		{03CFC5F7-D1E8-4811-B0CE-AE19D71FF776} = {D5ECE249-1EA3-455A-908F-BF2C7FFE5733}
 		{55BDB7F0-BCDB-4BDF-9853-E3F47C95F9F0} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
+		{011717BD-414C-4267-87B0-ED0A7D7E2477} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
+		{2FA0ED61-5989-496B-8863-3DDB2A19285C} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
+		{39995EF7-48DF-4B88-A7A8-BAAA8EFBA36C} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
+		{48323179-7C28-4D0C-8C0F-C69955EF4D7F} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
+		{469AB0F3-4C95-4BFE-9E98-943189E0B391} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
+		{136FFA40-7509-434E-A24D-B83C201811EA} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DC22FF0-8820-4873-B833-1799B143B16A}
