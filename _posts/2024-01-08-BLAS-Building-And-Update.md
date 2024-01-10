@@ -9,7 +9,7 @@ toc: true
 toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
-thumbnail: /assets/images/BLAStest/3.png
+thumbnail: /assets/images/thumbnails/2024-01-08-BLAS-Building-And-Update.png
 ---
 
 Strategy for building BLAS variants and updating BLASes.
