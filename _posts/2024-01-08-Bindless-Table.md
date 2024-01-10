@@ -9,7 +9,7 @@ toc: true
 toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
-thumbnail: /assets/images/thumbnails/2024-01-08-Bindless-Table.png
+teaser: /assets/images/thumbnails/2024-01-08-Bindless-Table.png
 ---
 
 I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.

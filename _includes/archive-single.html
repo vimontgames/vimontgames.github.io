@@ -25,11 +25,6 @@
             {% endif %}
         </h2>
         {% include page__meta.html type=include.type %}
-
-        {% if post.thumbnail %}
-        <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }}">
-        {% endif %}
-
         {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 128 }}</p>{% endif %}
 
     </article>
