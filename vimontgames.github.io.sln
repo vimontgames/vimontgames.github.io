@@ -31,11 +31,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_posts", "_posts", "{C5042F
 	ProjectSection(SolutionItems) = preProject
 		_posts\2024-01-08-Bindless-Table.md = _posts\2024-01-08-Bindless-Table.md
 		_posts\2024-01-08-BLAS-Building-And-Update.md = _posts\2024-01-08-BLAS-Building-And-Update.md
-		_posts\2024-01-08-Goatcounter.md = _posts\2024-01-08-Goatcounter.md
-		_posts\2024-01-08-Hello-World.md = _posts\2024-01-08-Hello-World.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{99B5009C-3EE6-4DC5-8B05-079D3060E2AB}"
+	ProjectSection(SolutionItems) = preProject
+		assets\css\main.scss = assets\css\main.scss
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{D5ECE249-1EA3-455A-908F-BF2C7FFE5733}"
 	ProjectSection(SolutionItems) = preProject
@@ -158,6 +159,55 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "search", "search", "{136FFA
 		_includes\search\search_form.html = _includes\search\search_form.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{CF72CC9C-5BA4-448A-B04C-831DF9E45A8A}"
+	ProjectSection(SolutionItems) = preProject
+		assets\css\main.scss = assets\css\main.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_sass", "_sass", "{141680D1-DDC7-4AAC-ADE6-1FFD9BD5E98A}"
+	ProjectSection(SolutionItems) = preProject
+		_sass\minimal-mistakes.scss = _sass\minimal-mistakes.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "minimal-mistakes", "minimal-mistakes", "{FC69CF26-E033-4981-95C5-7C14316E48D9}"
+	ProjectSection(SolutionItems) = preProject
+		_sass\minimal-mistakes\_animations.scss = _sass\minimal-mistakes\_animations.scss
+		_sass\minimal-mistakes\_archive.scss = _sass\minimal-mistakes\_archive.scss
+		_sass\minimal-mistakes\_base.scss = _sass\minimal-mistakes\_base.scss
+		_sass\minimal-mistakes\_buttons.scss = _sass\minimal-mistakes\_buttons.scss
+		_sass\minimal-mistakes\_footer.scss = _sass\minimal-mistakes\_footer.scss
+		_sass\minimal-mistakes\_forms.scss = _sass\minimal-mistakes\_forms.scss
+		_sass\minimal-mistakes\_masthead.scss = _sass\minimal-mistakes\_masthead.scss
+		_sass\minimal-mistakes\_mixins.scss = _sass\minimal-mistakes\_mixins.scss
+		_sass\minimal-mistakes\_navigation.scss = _sass\minimal-mistakes\_navigation.scss
+		_sass\minimal-mistakes\_notices.scss = _sass\minimal-mistakes\_notices.scss
+		_sass\minimal-mistakes\_page.scss = _sass\minimal-mistakes\_page.scss
+		_sass\minimal-mistakes\_print.scss = _sass\minimal-mistakes\_print.scss
+		_sass\minimal-mistakes\_reset.scss = _sass\minimal-mistakes\_reset.scss
+		_sass\minimal-mistakes\_search.scss = _sass\minimal-mistakes\_search.scss
+		_sass\minimal-mistakes\_sidebar.scss = _sass\minimal-mistakes\_sidebar.scss
+		_sass\minimal-mistakes\_syntax.scss = _sass\minimal-mistakes\_syntax.scss
+		_sass\minimal-mistakes\_tables.scss = _sass\minimal-mistakes\_tables.scss
+		_sass\minimal-mistakes\_utilities.scss = _sass\minimal-mistakes\_utilities.scss
+		_sass\minimal-mistakes\_variables.scss = _sass\minimal-mistakes\_variables.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "skins", "skins", "{03BAEA90-28D4-4642-B245-155A67826145}"
+	ProjectSection(SolutionItems) = preProject
+		_sass\minimal-mistakes\skins\_air.scss = _sass\minimal-mistakes\skins\_air.scss
+		_sass\minimal-mistakes\skins\_aqua.scss = _sass\minimal-mistakes\skins\_aqua.scss
+		_sass\minimal-mistakes\skins\_contrast.scss = _sass\minimal-mistakes\skins\_contrast.scss
+		_sass\minimal-mistakes\skins\_dark.scss = _sass\minimal-mistakes\skins\_dark.scss
+		_sass\minimal-mistakes\skins\_default.scss = _sass\minimal-mistakes\skins\_default.scss
+		_sass\minimal-mistakes\skins\_dirt.scss = _sass\minimal-mistakes\skins\_dirt.scss
+		_sass\minimal-mistakes\skins\_mint.scss = _sass\minimal-mistakes\skins\_mint.scss
+		_sass\minimal-mistakes\skins\_neon.scss = _sass\minimal-mistakes\skins\_neon.scss
+		_sass\minimal-mistakes\skins\_plum.scss = _sass\minimal-mistakes\skins\_plum.scss
+		_sass\minimal-mistakes\skins\_sunrise.scss = _sass\minimal-mistakes\skins\_sunrise.scss
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vendor", "vendor", "{0FD7E326-217F-48BF-8188-7391B76A6D04}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +227,11 @@ Global
 		{48323179-7C28-4D0C-8C0F-C69955EF4D7F} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
 		{469AB0F3-4C95-4BFE-9E98-943189E0B391} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
 		{136FFA40-7509-434E-A24D-B83C201811EA} = {011717BD-414C-4267-87B0-ED0A7D7E2477}
+		{CF72CC9C-5BA4-448A-B04C-831DF9E45A8A} = {99B5009C-3EE6-4DC5-8B05-079D3060E2AB}
+		{141680D1-DDC7-4AAC-ADE6-1FFD9BD5E98A} = {BEEB0E48-38CA-405B-BFAC-6BB50F48285B}
+		{FC69CF26-E033-4981-95C5-7C14316E48D9} = {141680D1-DDC7-4AAC-ADE6-1FFD9BD5E98A}
+		{03BAEA90-28D4-4642-B245-155A67826145} = {FC69CF26-E033-4981-95C5-7C14316E48D9}
+		{0FD7E326-217F-48BF-8188-7391B76A6D04} = {FC69CF26-E033-4981-95C5-7C14316E48D9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DC22FF0-8820-4873-B833-1799B143B16A}
