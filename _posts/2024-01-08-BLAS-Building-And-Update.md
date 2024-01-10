@@ -5,13 +5,11 @@ categories:
   - Rendering
 tags:
   - RayTracing
-  - BLAS
-  - Skinning
-
 toc: true
 toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
+thumbnail: /assets/images/BLAStest/3.png
 ---
 
 Strategy for building BLAS variants and updating BLASes.
