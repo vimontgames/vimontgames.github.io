@@ -22,6 +22,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_pages", "_pages", "{B33DCC
 		_pages\about.md = _pages\about.md
 		_pages\category-archive.md = _pages\category-archive.md
 		_pages\links.md = _pages\links.md
+		_pages\home.md = _pages\home.md
 		_pages\tag-archive.md = _pages\tag-archive.md
 		_pages\year-archive.md = _pages\year-archive.md
 	EndProjectSection
@@ -69,6 +70,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{55
 		_layouts\collection.html = _layouts\collection.html
 		_layouts\compress.html = _layouts\compress.html
 		_layouts\default.html = _layouts\default.html
+		_layouts\home.html = _layouts\home.html
 		_layouts\posts.html = _layouts\posts.html
 		_layouts\search.html = _layouts\search.html
 		_layouts\single.html = _layouts\single.html
