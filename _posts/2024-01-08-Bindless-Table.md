@@ -17,7 +17,7 @@ I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs re
 
 Here is the layout I currently use for bindless table :
 
-# Table Layout
+## Table Layout
 
 | Type                            | Range          | Space | Binding
 | ------------------------------- | -------------- | ----- | --------
@@ -39,7 +39,7 @@ Notes:
 
 In case you want more details, check the file [table.hlsi](https://github.com/vimontgames/vgframework/blob/master/data/Shaders/system/table.hlsli) in the repo.
 
-# Reserved Slots
+## Reserved Slots
 
 By default, a new resource requiring a view will be created allocating a new bindless handle in these ranges, but it's convenient to have some hard-coded slots :
 
@@ -106,7 +106,7 @@ These custom hardcoded slots are defined compile-time and "allocated" bottom-up 
 | **Buffer**  | **Default**      | **32767**
 
 
-# Debugging
+## Debugging
 
 Using GPU debug tools like [Renderdoc](https://renderdoc.org/) or [PIX](https://devblogs.microsoft.com/pix/), it is possible to view the descriptor used and the resource contents.
 
