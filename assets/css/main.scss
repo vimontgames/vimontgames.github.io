@@ -6,31 +6,37 @@ search: false
 @charset "utf-8"
 ;
 
-$background-color : #1F2126;
-$link-color : #0366D6;
+$vg_grey: #1F2126; 
+$vg_yellow: #E8B814;
+$vg_yellow_light: #FFC700; 
+$vg_pink: #F21368;
+$vg_blue: #0366D6;
 
-$masthead-link-color: #E8B814;
-$masthead-link-color-hover: #FFC700;
+$background-color: $vg_grey;
+$link-color: $vg_blue;
+
+$masthead-link-color: $vg_yellow;
+$masthead-link-color-hover: $vg_yellow_light;
 
 a {
-    color: #0366D6; 
-    text-decoration: none; 
+    color: $vg_blue;
+    text-decoration: none;
 }
 
 .page__title {
-    color: #E8B814;
+    color: $vg_yellow;
 }
 
 h1 {
-    color: #E8B814;
+    color: $vg_yellow; 
 }
 
 h2 {
-    color: #F21368;
+    color: $vg_pink; 
 }
 
-h3 {
-    color: #0366D6; 
+h2 {
+    color: $vg_blue; 
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
