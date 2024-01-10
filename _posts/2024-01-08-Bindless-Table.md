@@ -5,6 +5,10 @@ categories:
   - Rendering
 tags:
   - Bindless
+toc: true
+toc_label: "TOC"
+toc_icon: "stream"
+toc_sticky: true
 ---
 
 I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.\
