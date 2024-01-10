@@ -11,7 +11,8 @@ toc_icon: "stream"
 toc_sticky: true
 ---
 
-I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.\
+I've been experimenting with Bindless rendering using DirectX12 & Vulkan APIs recently.
+
 Here is the layout I currently use for bindless table :
 
 ## Table Layout
