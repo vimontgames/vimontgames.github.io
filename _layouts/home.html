@@ -2,12 +2,8 @@
 layout: archive
 ---
 
-before content<br>
-{{ content }}
-after content<br>
-
 before include<br>
-
+{% include home/index.html %}
 after include<br>
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
