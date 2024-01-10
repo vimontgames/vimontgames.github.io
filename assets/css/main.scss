@@ -20,8 +20,8 @@ $background-color: $vg_grey;
 $link-color: $vg_blue_light;
 $primary-color: $vg_pink;
 
-$masthead-link-color: $vg_yellow;
-$masthead-link-color-hover: $vg_yellow_light;
+$masthead-link-color: $vg_pink;
+$masthead-link-color-hover: $vg_pink;
 
 a 
 {
@@ -34,15 +34,14 @@ a:visited
 }
 
 h1 {
-    color: $vg_yellow;
-}
-
-h2 {
     color: $vg_pink;
 }
 
-h3 
-{
+h2 {
+    color: $vg_yellow;
+}
+
+h3 {
     color: $vg_blue; 
 }
 
