@@ -9,7 +9,7 @@ tags:
   - Skinning
 
 toc: true
-toc_label: "BLAS Build and Update"
+toc_label: "TOC"
 toc_icon: "stream"
 toc_sticky: true
 ---
@@ -67,7 +67,7 @@ The 2 opaque cubes are sharing the same BLAS made of one opaque batch while the 
 BLAS made of 1 non-opaque batch.
 
 
-# Dynamic geometry
+# Dynamic geometry 
 
 As opposed to static geometries, dynamic geometries change every frame (e.g. skinned meshes) so we build them
 with the **FAST_BUILD** and **ALLOW_UPDATE** flags to reduce the cost of this update.
