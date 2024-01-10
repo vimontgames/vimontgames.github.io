@@ -10,9 +10,9 @@
   {% endif %}
 
   <div class="author__content">
-    <h3 itemprop="name">
+    <h4 class="author__name p-name" itemprop="name">
       {{ author.name }}
-    </h3>
+    </h4>
     {% if author.bio %}
       <div class="author__bio p-note" itemprop="description">
         {{ author.bio | markdownify }}
