@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Benoit Vimont"
   avatar : "/assets/images/PPx4.png"
-  bio    : "Graphics Engineer"
+  bio    : "I'm a graphics engineer"
   links:
     - label: "GitHub"
       icon: "fab fa-github"

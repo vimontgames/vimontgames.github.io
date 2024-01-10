@@ -7,6 +7,9 @@ tags:
   - RayTracing
   - BLAS
   - Skinning
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 ---
 
 Strategy for building BLAS variants and updating BLASes.
