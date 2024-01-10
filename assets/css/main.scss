@@ -17,7 +17,7 @@ $vg_blue: #125296;
 $vg_blue_light: #0366D6;
 
 $background-color: $vg_grey;
-$link-color: $vg_pink;
+$link-color: $vg_blue_light;
 $primary-color: $vg_blue_light;
 
 $masthead-link-color: $vg_blue_light;
@@ -34,11 +34,11 @@ a:visited {
 }
 
 h1 {
-    color: $vg_blue_light;
+    color: $vg_pink;
 }
 
 h2 {
-    color: $vg_pink;
+    color: $vg_blue_light;
 }
 
 h3 {
