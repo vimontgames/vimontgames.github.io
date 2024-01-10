@@ -14,9 +14,15 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
-  {% endfor %}
+    {% for post in posts %}
+    <li>
+        <span class="post-meta">{{ post.date | date: site.date_format | default: "yyyy-mm-dd" }}</span>
+        <h3>
+            <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a>
+        </h3>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+    </li>
+    {% endfor %}
 </div>
 
 {% include paginator.html %}
