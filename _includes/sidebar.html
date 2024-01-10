@@ -18,9 +18,9 @@
 
       <section class="page__content--sidebar">
       <!-- Recent Posts -->
-      <h4>Recent Posts</h4>
+      <h5>Recent Posts</h5>
         {% for post in site.posts limit:8 %}
-          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a><br>
         {% endfor %}
     </section>
 
