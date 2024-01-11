@@ -19,7 +19,7 @@ $vg_blue_light: #0366D6;
 $vg_white: #fff6fb;
 
 $primary-color: $vg_blue_light;
-$secondary-color: $primary-color;
+$secondary-color: $vg_pink;
 
 $background-color: $vg_grey;
 $link-color: $primary-color;
@@ -52,7 +52,11 @@ a:active {
     color: $link-color;
 }
 
-h1, h2, h3 {
+h1 {
+    color: $secondary-color;
+}
+
+h2 {
     color: $primary-color;
 }
 
