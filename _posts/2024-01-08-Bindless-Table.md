@@ -45,7 +45,7 @@ By default, a new resource requiring a view will be created allocating a new bin
 
 - To avoid an extra indirection (e.g. passing buffer handle as root constant) :
 
-```hlsl
+```cpp
 PS_Output PS_Forward(VS_Output _input)
 {
     PS_Output output = (PS_Output)0;
@@ -58,7 +58,7 @@ PS_Output PS_Forward(VS_Output _input)
 
 - To fallback to missing texture :
 
-```c++
+```cpp
 m_defaultTexture = device->createTexture(texDesc, "DefaultTex2D", initData, ReservedSlot(BINDLESS_TEXTURE_INVALID));
 VG_ASSERT(m_defaultTexture->getTextureHandle() == BINDLESS_TEXTURE_INVALID);
         
@@ -70,7 +70,7 @@ for (uint i = BINDLESS_TEXTURE_START; i < BINDLESS_TEXTURE_COUNT; ++i)
 
 - To initialize shader structs with proper default values (e.g. default albedo, default normal map etc...) :
 
-```hlsl
+```cpp
 struct GPUMaterialData
 {
     #ifdef __cplusplus
