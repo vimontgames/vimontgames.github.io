@@ -77,22 +77,40 @@ h2 {
 // Base0E: Keywords, Storage, Selector, Markup Italic, Diff Changed
 // Base0F: Deprecated, Opening/Closing Embedded Language Tags, e.g., PHP tags
 
+/* neon syntax highlighting (base16) */
+//$base00: #ffffff;
+//$base01: #e0e0e0;
+//$base02: #d0d0d0;
+//$base03: #b0b0b0;
+//$base04: #000000;
+//$base05: #101010;
+//$base06: #151515;
+//$base07: #202020;
+//$base08: #ff0086;
+//$base09: #fd8900;
+//$base0a: #aba800;
+//$base0b: #00c918;
+//$base0c: #1faaaa;
+//$base0d: #3777e6;
+//$base0e: #ad00a1;
+//$base0f: #cc6633;
+
 $base00: $vg_white !default;
-$base01: #e0e0e0 !default;
+$base01: #e0e0e0 !default; // default
 $base02: #99c8ef !default;
 $base03: #006400 !default;
-$base04: #000000 !default;
-$base05: #101010 !default;
-$base06: #151515 !default;
-$base07: #202020 !default;
+$base04: #000000 !default; // default
+$base05: #101010 !default; // default
+$base06: #151515 !default; // default
+$base07: #202020 !default; // default
 $base08: #000080 !default;
 $base09: #0000ff !default;
-$base0a: #aba800 !default;
-$base0b: #00c918 !default;
-$base0c: #1faaaa !default;
-$base0d: #3777e6 !default;
+$base0a: #aba800 !default; // default
+$base0b: #880000 !default; 
+$base0c: #1faaaa !default; // default
+$base0d: #3777e6 !default; // default
 $base0e: #8f08c4 !default;
-$base0f: #cc6633 !default;
+$base0f: #cc6633 !default; // default
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
