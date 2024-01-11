@@ -60,5 +60,39 @@ h2 {
     color: $primary-color;
 }
 
+// Base00: Default Background
+// Base01: Lighter Background (Used for status bars, line number bars, etc.)
+// Base02: Selection Background
+// Base03: Comments, Invisibles, Line Highlighting
+// Base04: Dark Foreground (Used for status bars, line number bars, etc.)
+// Base05: Default Foreground, Caret, Delimiters, Operators
+// Base06: Light Foreground (Not often used)
+// Base07: Light Background (Not often used)
+// Base08: Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+// Base09: Integers, Boolean, Constants, XML Attributes, Markup Link Url
+// Base0A: Classes, Markup Bold, Search Text Background
+// Base0B: Strings, Inherited Class, Markup Code, Diff Inserted
+// Base0C: Support, Regular Expressions, Escape Characters, Markup Quotes
+// Base0D: Functions, Methods, Attribute IDs, Headings
+// Base0E: Keywords, Storage, Selector, Markup Italic, Diff Changed
+// Base0F: Deprecated, Opening/Closing Embedded Language Tags, e.g., PHP tags
+
+$base00: $vg_white !default;
+$base01: #e0e0e0 !default;
+$base02: #99c8ef !default;
+$base03: #006400 !default;
+$base04: #000000 !default;
+$base05: #101010 !default;
+$base06: #151515 !default;
+$base07: #202020 !default;
+$base08: #000080 !default;
+$base09: #0000ff !default;
+$base0a: #aba800 !default;
+$base0b: #00c918 !default;
+$base0c: #1faaaa !default;
+$base0d: #3777e6 !default;
+$base0e: #8f08c4 !default;
+$base0f: #cc6633 !default;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
